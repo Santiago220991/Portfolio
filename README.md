@@ -2,7 +2,7 @@
 
 # Project Name
 
-> Hello World Project
+> Portfolio Project
 
 
 ## Built With
@@ -13,7 +13,7 @@
 
 ## Getting Started
 
-**This is an example of how Github flow worgs.**
+**This is my portfolio.**
 
 
 ## Authors
