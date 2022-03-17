@@ -110,9 +110,8 @@ body {
 }
 
 .works-title > *{
-  flex: 1 1 100%;
+  flex: 0 1 100%;
   text-align: center;
-  border: 0;
 }
 
 .works-title h2{
@@ -150,6 +149,7 @@ body {
   justify-content: center;
   padding: 0px;
   gap: 8px;
+  flex-wrap: wrap;
 }
 
 .works-card li{
@@ -176,4 +176,104 @@ body {
   border-radius: 4px;
   padding: 12px;
   margin: 24px 0px 24px 0px;
+}
+
+.about-me {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto auto auto auto;
+  border: solid green 1px;
+  margin: 24px;
+  justify-content: center;
+  row-gap: 24px;
+}
+
+.about-me-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+  background-image: url("/images/mobile_about_me_img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 40px;
+}
+
+.about-me-title > *{
+  flex: 1 1 100%;
+  text-align: center;
+}
+.about-me-title h2{
+  font-size: 40px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #172b4d;
+  margin: 10px;
+}
+
+.about-me-title p{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #172b4d;
+  line-height: 32px;
+}
+
+.about-me-title div {
+  display:flex;
+  justify-content: center;
+}
+
+.about-me-title div p{
+  color: #FFFF;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #36B37F;
+  border-radius: 4px;
+  padding: 12px;
+}
+
+.about-me-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #C1C7D0;
+  border-radius: 8px;
+  margin-right: 24px;
+  margin-left: 24px;
+}
+
+.about-me-card img{
+  margin-top: 40px;
+  margin-bottom: 10px
+}
+
+.about-me-card h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #344563;
+}
+
+.about-me-card ul{
+  display:flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding-left:0;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.about-me-card ul li{
+  list-style: none;
+  color: #36B37E;
+  background-color: #FFFF;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
 }
