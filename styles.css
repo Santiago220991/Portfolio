@@ -7,9 +7,10 @@ html {
   justify-content: center;
 }
 
-body{
+body {
   margin: 0;
 }
+
 .headline-container {
   background-image: url("/images/Header_img.png");
   background-repeat: no-repeat;
@@ -31,8 +32,8 @@ body{
 }
 
 .menu nav img {
-  height: 40px;
-  width: 40px;
+  height: 50px;
+  width: 50px;
 }
 
 .myinfo {
@@ -42,7 +43,8 @@ body{
   margin-right: 24px;
 }
 
-.myinfo p,h1 {
+.myinfo p,
+h1 {
   flex: 0 1 100%;
   text-align: center;
   font-size: 40px;
@@ -87,6 +89,6 @@ body{
 }
 
 .social-media ul li img {
-  width: 20px;
-  height: 20px;
+  width: 50px;
+  height: 50px;
 }
