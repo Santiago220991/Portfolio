@@ -183,7 +183,7 @@ body {
   justify-content: center;
 }
 
-.works-card p {
+.works-card a {
   color: #ffff;
   font-size: 17px;
   font-weight: 500;
@@ -236,7 +236,7 @@ body {
   line-height: 32px;
 }
 
-.about-me-title div p {
+.about-me-title div a {
   color: #ffff;
   font-size: 17px;
   font-weight: 500;
