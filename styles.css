@@ -26,6 +26,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.about-me-card img {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
 .menu nav img {
   height: 50px;
   width: 50px;
@@ -83,6 +88,17 @@ body {
   margin-top: 38px;
 }
 
+.works-card li {
+  list-style: none;
+  color: #3a4a42;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 8px 12px 8px 12px;
+  background-color: #ebf0ee;
+  border-radius: 4px;
+}
+
 .social-media ul li {
   list-style: none;
 }
@@ -96,7 +112,6 @@ body {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto auto auto auto auto auto;
-  border: solid green 1px;
   margin: 24px;
   justify-content: center;
   row-gap: 24px;
@@ -109,12 +124,12 @@ body {
   margin-bottom: 40px;
 }
 
-.works-title > *{
+.works-title > * {
   flex: 0 1 100%;
   text-align: center;
 }
 
-.works-title h2{
+.works-title h2 {
   font-size: 40px;
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
@@ -126,63 +141,56 @@ body {
   display: flex;
   flex-direction: column;
   height: 474px;
-  border: red solid 1px;
   justify-content: flex-end;
-  background-color: #EBF0EE;
+  background-color: #ebf0ee;
 }
 
-.works-card > *{
+.works-card > * {
   text-align: center;
   border-radius: 8px;
-  background-color: #FFFFFF;
+  background-color: #fff;
 }
 
-.works-card h3{
-  color: #3A4A42;
+.works-card h3 {
+  color: #3a4a42;
   font-size: 24px;
   font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
-} 
+}
 
-.works-card ul{
+.works-card ul {
   display: flex;
   justify-content: center;
-  padding: 0px;
+  padding: 0;
   gap: 8px;
   flex-wrap: wrap;
 }
 
-.works-card li{
-  list-style:none;
-  color: #3A4A42;
-  font-size: 12px;
-  font-weight: 600;
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 8px 12px 8px 12px;
-  background-color: #EBF0EE;
-  border-radius: 4px;
-}
-
-.works-card div div{
-  display:flex;
+.about-me-title div {
+  display: flex;
   justify-content: center;
 }
+
+.works-card div div {
+  display: flex;
+  justify-content: center;
+}
+
 .works-card p {
-  color: #FFFF;
+  color: #ffff;
   font-size: 17px;
   font-weight: 500;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #36B37F;
+  background-color: #36b37f;
   border-radius: 4px;
   padding: 12px;
-  margin: 24px 0px 24px 0px;
+  margin: 24px 0 24px 0;
 }
 
 .about-me {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto auto auto auto auto auto;
-  border: solid green 1px;
   margin: 24px;
   justify-content: center;
   row-gap: 24px;
@@ -199,11 +207,12 @@ body {
   margin-top: 40px;
 }
 
-.about-me-title > *{
+.about-me-title > * {
   flex: 1 1 100%;
   text-align: center;
 }
-.about-me-title h2{
+
+.about-me-title h2 {
   font-size: 40px;
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
@@ -211,7 +220,7 @@ body {
   margin: 10px;
 }
 
-.about-me-title p{
+.about-me-title p {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
@@ -220,57 +229,47 @@ body {
   line-height: 32px;
 }
 
-.about-me-title div {
-  display:flex;
-  justify-content: center;
-}
-
-.about-me-title div p{
-  color: #FFFF;
+.about-me-title div p {
+  color: #ffff;
   font-size: 17px;
   font-weight: 500;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #36B37F;
+  background-color: #36b37f;
   border-radius: 4px;
   padding: 12px;
 }
 
-.about-me-card{
+.about-me-card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #C1C7D0;
+  background-color: #c1c7d0;
   border-radius: 8px;
   margin-right: 24px;
   margin-left: 24px;
 }
 
-.about-me-card img{
-  margin-top: 40px;
-  margin-bottom: 10px
-}
-
-.about-me-card h3{
+.about-me-card h3 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
   font-weight: 600;
   color: #344563;
 }
 
-.about-me-card ul{
-  display:flex;
+.about-me-card ul {
+  display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   gap: 8px;
-  padding-left:0;
+  padding-left: 0;
   text-align: center;
   margin-bottom: 24px;
 }
 
-.about-me-card ul li{
+.about-me-card ul li {
   list-style: none;
-  color: #36B37E;
-  background-color: #FFFF;
+  color: #36b37e;
+  background-color: #ffff;
   padding: 12px;
   border-radius: 8px;
   font-size: 12px;
