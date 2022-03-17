@@ -13,8 +13,17 @@
 
 ## Getting Started
 
-**This is my portfolio.**
+**This is my portfolio. It contains information like:**
 
+**Projects**
+
+**Skills**
+
+**Hobbies**
+
+**It also contains a section to contact me.**
+
+**This project was made with HTML, CSS, and Javascript.**
 
 ## Authors
 
