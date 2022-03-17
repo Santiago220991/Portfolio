@@ -7,7 +7,7 @@ html {
   justify-content: center;
 }
 
-.header-background {
+.headline-container {
   background-image: url("/images/Header_img.png");
   background-repeat: no-repeat;
   background-position: left 100% top 1%;
