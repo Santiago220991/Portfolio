@@ -182,7 +182,7 @@ body {
   justify-content: center;
 }
 
-.works-card a {
+.works-card button {
   color: #ffff;
   font-size: 17px;
   font-weight: 500;
@@ -191,6 +191,7 @@ body {
   border-radius: 4px;
   padding: 12px;
   margin: 24px 0 24px 0;
+  border: none;
 }
 
 .about-me {
@@ -235,7 +236,7 @@ body {
   line-height: 32px;
 }
 
-.about-me-title div a {
+.about-me-title div button {
   color: #ffff;
   font-size: 17px;
   font-weight: 500;
@@ -243,6 +244,7 @@ body {
   background-color: #36b37f;
   border-radius: 4px;
   padding: 12px;
+  border: none;
 }
 
 .about-me-card {
