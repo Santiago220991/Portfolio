@@ -161,15 +161,13 @@ don’t hesitate to contact me.</p>
             <p class="contact-text">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
         </div>
         <div>
-            <form>
-                <input type="name" id="name" name="name" placeholder="Full Name">
+            <form action="https://formspree.io/f/{form_id}" method="post">
+                <input type="name" id="name" name="name" placeholder="Full Name" maxlength="30">
                 <input type="email" id="email" name="email" placeholder="Email Addres">
-                <textarea>Enter text here</textarea>
-
+                <textarea name="textarea" maxlength="500" placeholder="Enter text here"></textarea>
+                <button id="footer-button" type="submit">Get in touch</button>
             </form>
         </div>
-        <div class="image-holder">
-            <div><button id="footer-button" type="button">See Project</button></div>
             <div class="social-media">
                 <ul>
                     <li><img src="/images/twitter_img.png" alt="twitter"></li>
@@ -178,9 +176,7 @@ don’t hesitate to contact me.</p>
                     <li><img src="/images/github_img.png" alt="github"></li>
                     <li><img src="/images/peace_img.png" alt="peace"></li>
                 </ul>
-            </div>
         </div>
-      
         <div class="email-container">
             <a>alexander.cardenas10@outlook.com</a>
         </div>
