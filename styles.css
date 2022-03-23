@@ -394,8 +394,7 @@ textarea {
   .desktop-background{
     background-image: url("./images/header_desktop_img.png");
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-size: 100%;
     padding-top: 36px;
     padding-bottom: 100px;
 }
@@ -446,7 +445,7 @@ textarea {
   background-position: center;
   background-repeat: no-repeat;
   background-image: url("./images/about_me_desktop_img.png");
-  background-size: cover;
+  background-size: 100%;
 }
 
 .about-me-title p{
@@ -464,5 +463,52 @@ textarea {
 
 .about-me-card ul {
   justify-content: center;
+}
+
+.contact-me{
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  padding-left: 140px;
+  padding-right: 140px;
+  column-gap: 24px;
+  align-items: flex-start;
+  background-image: url("./images/contact_me_desktop_img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.email-container{
+  display:none;
+}
+
+.bottom-line{
+  display:none;
+}
+
+.contact-text-container{
+  flex-basis:42%;
+  padding-top: 30px;
+}
+.contact-text{
+  font-size: 30px;
+  line-height: 52px;
+  margin:0;
+}
+.contact-me div{
+  margin-left:0;
+  margin-right:0;
+  text-align: left;
+}
+.form-container{
+  flex-grow: 1;
+}
+.contact-me .social-media{
+  flex-basis:100%;
+  padding-top: 150px;
+}
+form div{
+  padding-left: 0;
 }
 }
