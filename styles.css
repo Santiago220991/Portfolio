@@ -94,8 +94,6 @@ body {
 .social-media ul {
   display: flex;
   padding: 0;
-  margin-left: 102px;
-  margin-right: 102px;
   justify-content: center;
   gap: 10px;
   margin-top: 38px;
@@ -399,8 +397,10 @@ textarea {
   .desktop-background{
     background-image: url("./images/header_desktop_img.png");
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     padding-top: 36px;
+    padding-bottom: 550px;
 }
 .myinfo{
   padding-top: 160px;
@@ -410,5 +410,26 @@ textarea {
 }
 .info{
   font-size: 48px;
+}
+
+.action_button{
+  display: none;
+}
+
+.works-line{
+  display:none;
+}
+
+.works{
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-row-gap: 32px;
+  grid-column-gap: 32px;
+  margin-top: 150px;
+}
+
+.works-title{
+  grid-column: 1/4;
+  grid-row: 1/1;
 }
 }
