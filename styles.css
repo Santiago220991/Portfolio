@@ -185,7 +185,7 @@ form > * {
   flex-wrap: wrap;
 }
 
-footer > div {
+.contact-me > div {
   text-align: center;
   margin-left: 24px;
   margin-right: 24px;
@@ -312,7 +312,7 @@ footer > div {
   display: flex;
 }
 
-footer {
+.contact-me {
   display: flex;
   flex-direction: column;
   background-image: url(/images/contac_img.png);
