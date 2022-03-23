@@ -11,7 +11,7 @@ body {
 }
 
 .headline-container {
-  background-image: url("/images/Header_img.png");
+  background-image: url("./images/Header_img.png");
   background-repeat: no-repeat;
   background-position: top left;
 }
@@ -22,6 +22,10 @@ body {
   margin-left: 24px;
   margin-right: 24px;
   align-items: center;
+}
+
+.menu-desktop{
+  display: none;
 }
 
 .menu a {
@@ -230,7 +234,7 @@ form > * {
   justify-content: center;
   margin-bottom: 40px;
   flex-wrap: wrap;
-  background-image: url("/images/mobile_about_me_img.png");
+  background-image: url("./images/mobile_about_me_img.png");
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 40px;
@@ -318,7 +322,7 @@ form > * {
 .contact-me {
   display: flex;
   flex-direction: column;
-  background-image: url(/images/contac_img.png);
+  background-image: url("./images/contac_img.png");
   background-repeat: no-repeat;
   background-position: right;
   background-size: 15%;
@@ -368,7 +372,43 @@ textarea {
 
 @media screen and (min-width: 768px) {
 
+  html{
+    display:block;
+  }
+  body {
+    margin: 0;
+    width: 100%;
+  }
+
+  .menu{
+    justify-content: center;
+    column-gap: 32px;
+  }
+  .menu-mobile{
+    display:none;
+  }
+  .menu-desktop{
+    display: block;
+    color: #344563;
+    font-size: 15px;
+    font-weight: 600;
+  }
   .headline-container {
-    background-color: red;
+    background-image: none;
+}
+  .desktop-background{
+    background-image: url("./images/header_desktop_img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 36px;
+}
+.myinfo{
+  padding-top: 160px;
+}
+.myinfo > *{
+  font-size: 48px;
+}
+.info{
+  font-size: 48px;
 }
 }
