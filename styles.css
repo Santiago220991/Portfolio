@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  width: 375px;
 }
 
 .headline-container {
@@ -29,6 +30,11 @@ body {
 .about-me-card img {
   margin-top: 40px;
   margin-bottom: 10px;
+}
+
+.bottom-line img {
+  width: 150px;
+  height: 6px;
 }
 
 .menu nav img {
@@ -124,6 +130,13 @@ body {
   margin-bottom: 40px;
 }
 
+form > * {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding: 15px;
+  border-radius: 4px;
+}
+
 .works-title > * {
   flex: 0 1 100%;
   text-align: center;
@@ -170,6 +183,12 @@ body {
   padding: 0;
   gap: 8px;
   flex-wrap: wrap;
+}
+
+.contact-me > div {
+  text-align: center;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .about-me-title div {
@@ -291,4 +310,55 @@ body {
 
 .snapshot-container {
   display: flex;
+}
+
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  background-image: url(/images/contac_img.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 15%;
+  background-position-y: 653px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-text {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #172b4d;
+  text-align: center;
+}
+
+textarea {
+  height: 100px;
+  border-color: #60c095;
+  margin-bottom: 0;
+}
+
+#footer-button {
+  color: #ffff;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #36b37f;
+  border-radius: 4px;
+  padding: 12px;
+  border: none;
+}
+
+.email-container {
+  margin-bottom: 200px;
+}
+
+.email-container a {
+  color: #42526e;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
 }
