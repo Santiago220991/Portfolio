@@ -392,6 +392,7 @@ textarea {
     color: #344563;
     font-size: 15px;
     font-weight: 600;
+    text-decoration: none;
   }
   .headline-container {
     background-image: none;
