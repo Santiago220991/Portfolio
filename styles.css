@@ -579,5 +579,7 @@ textarea {
     background-color: #e2edff;
     cursor: pointer;
   }
-
+input{
+  border: 1px #D0D9D4 solid;
+}
 }
