@@ -569,5 +569,7 @@ textarea {
   #footer-button:hover{
     cursor: pointer;
   }
-
+  .social-media ul li img:hover {
+    background-color:#E2EDFF;
+  }
 }
