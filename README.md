@@ -25,6 +25,14 @@
 
 **This project was made with HTML, CSS, and Javascript.**
 
+To get a local copy up and running follow these simple example steps.
+
+
+## Setup
+
+- Clone the repository.
+- Open a browser an introduce the next URL http://127.0.0.1:5501/index.html
+
 ## Authors
 
 👤 **Author1**
