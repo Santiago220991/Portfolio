@@ -541,4 +541,33 @@ textarea {
     flex-basis: 100%;
     padding-top: 150px;
   }
+
+  .menu-desktop:hover {
+    color: #008552;
+    background-color: #008552;
+  }
+
+  button:active{
+    background-color: #008552;
+  }
+
+  button:hover{
+    cursor: pointer;
+  }
+
+  .about-me-title div button:active{
+    background-color: #008552;
+  }
+  .about-me-title div button:active{
+    cursor:pointer;
+  }
+
+  #footer-button:active{
+    background-color: #008552;
+    cursor: pointer;
+  }
+  #footer-button:hover{
+    cursor: pointer;
+  }
+
 }
