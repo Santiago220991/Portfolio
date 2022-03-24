@@ -557,7 +557,6 @@ textarea {
 
   .about-me-title div button:active {
     background-color: #008552;
-    background-color: #008552;
   }
 
   .about-me-title div button:hover {
@@ -579,7 +578,8 @@ textarea {
     background-color: #e2edff;
     cursor: pointer;
   }
-input{
-  border: 1px #D0D9D4 solid;
-}
+
+  input {
+    border: 1px #d0d9d4 solid;
+  }
 }
