@@ -152,6 +152,11 @@ form > * {
   height: 40px;
 }
 
+.action_button_1_container{
+  text-align: center;
+  display: none;
+}
+
 .works-title h2 {
   font-size: 40px;
   font-weight: 700;
@@ -396,7 +401,8 @@ textarea {
     background-repeat: no-repeat;
     background-size: 100%;
     padding-top: 36px;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
+    text-align: center;
 }
 .myinfo{
   padding-top: 160px;
@@ -414,6 +420,16 @@ textarea {
   display: none;
 }
 
+.action_button_1_container{
+  display:block;
+  margin-top: 84px;
+}
+
+.action_button_1{
+  width: 40px;
+  height: 40px;
+}
+
 .works-line{
   display:none;
 }
@@ -423,7 +439,7 @@ textarea {
   grid-template-rows: auto auto auto;
   grid-row-gap: 32px;
   grid-column-gap: 24px;
-  margin-top: 150px;
+  margin-top: 100px;
   padding-left: 120px;
   padding-right: 120px;
 }
