@@ -622,4 +622,8 @@ transition-property: transform;
     from {transform: rotate(0deg);}
     to{transform: rotate(360deg);}
   }
+
+  .about-me-card:hover{
+    border:blue 2px solid;
+  }
 }
