@@ -583,6 +583,28 @@ textarea {
     border: 1px #d0d9d4 solid;
   }
 
+ input::placeholder{
+  transition-property: transform;
+  transition-duration: 1s;
+  
+ }
+
+ input:hover::placeholder{
+transform: translate(10px);
+transition-property: transform;
+ }
+
+ textarea::placeholder{
+  transition-property: transform;
+  transition-duration: 1s;
+  
+ }
+
+ textarea:hover::placeholder{
+transform: translate(10px);
+transition-property: transform;
+ }
+
   .snapshot{
     transition-property: transform;
     transition-duration: 1s;
@@ -591,5 +613,7 @@ textarea {
   .snapshot:hover{
     transform: scale(1.2);
   }
+
+  
 
 }
