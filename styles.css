@@ -582,4 +582,47 @@ textarea {
   input {
     border: 1px #d0d9d4 solid;
   }
+
+  input::placeholder {
+    transition-property: transform;
+    transition-duration: 1s;
+  }
+
+  input:hover::placeholder {
+    transform: translate(10px);
+    transition-property: transform;
+  }
+
+  textarea::placeholder {
+    transition-property: transform;
+    transition-duration: 1s;
+  }
+
+  textarea:hover::placeholder {
+    transform: translate(10px);
+    transition-property: transform;
+  }
+
+  .snapshot {
+    transition-property: transform;
+    transition-duration: 1s;
+  }
+
+  .snapshot:hover {
+    transform: scale(1.2);
+  }
+
+  .myinfo h1 {
+    animation-name: spin;
+    animation-duration: 2s;
+  }
+
+  @keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+
+  .about-me-card:hover {
+    border: blue 2px solid;
+  }
 }
