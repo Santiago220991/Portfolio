@@ -582,4 +582,14 @@ textarea {
   input {
     border: 1px #d0d9d4 solid;
   }
+
+  .snapshot{
+    transition-property: transform;
+    transition-duration: 1s;
+  }
+
+  .snapshot:hover{
+    transform: scale(1.2);
+  }
+
 }
