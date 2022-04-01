@@ -9,13 +9,13 @@ html {
 
 body {
   margin: 0;
-  width: 375px;
+  width: 100%;
 }
 
 .headline-container {
   background-image: url("./images/Header_img.png");
   background-repeat: no-repeat;
-  background-position: top left;
+  background-size: 100%;
 }
 
 .menu {
@@ -95,6 +95,7 @@ body {
 
 .social-media ul {
   display: flex;
+  flex-wrap: wrap;
   padding: 0;
   justify-content: center;
   gap: 10px;
