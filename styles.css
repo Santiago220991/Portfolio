@@ -52,8 +52,6 @@ body {
 }
 
 .myinfo {
-  display: flex;
-  flex-wrap: wrap;
   margin-left: 24px;
   margin-right: 24px;
 }
@@ -379,7 +377,7 @@ textarea {
 @media screen and (min-width: 768px) {
   body {
     margin: 0;
-    width: 1440px;
+    width: 100%;
   }
 
   .menu {
