@@ -240,7 +240,7 @@ form > * {
   flex-wrap: wrap;
   background-image: url("./images/mobile_about_me_img.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   margin-top: 40px;
 }
 
