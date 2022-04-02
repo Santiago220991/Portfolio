@@ -198,8 +198,6 @@ form > * {
 
 .contact-me > div {
   text-align: center;
-  margin-left: 24px;
-  margin-right: 24px;
 }
 
 .about-me-title div {
@@ -336,6 +334,8 @@ form > * {
 form {
   display: flex;
   flex-direction: column;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .contact-text {
@@ -369,7 +369,7 @@ textarea {
 
 .email-container a {
   color: #42526e;
-  font-size: 20px;
+  font-size: 4vw;
   font-weight: 400;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -446,7 +446,7 @@ textarea {
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
     grid-row-gap: 32px;
-    grid-column-gap: 24px;
+    grid-column-gap: 32px;
     margin-top: 100px;
     padding-left: 120px;
     padding-right: 120px;
@@ -514,6 +514,8 @@ textarea {
   .contact-text-container {
     flex-basis: 42%;
     padding-top: 30px;
+    margin-left: 24px;
+    margin-right: 24px;
   }
 
   .contact-text {
