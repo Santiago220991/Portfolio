@@ -25,7 +25,8 @@ body {
   margin-right: 24px;
   align-items: center;
 }
-.menu.active{
+
+.menu.active {
   display: none;
 }
 
@@ -39,39 +40,43 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.scroll-bar{
+.scroll-bar {
   display: none;
   height: 755px;
 }
 
-.scroll-bar.active{
+.scroll-bar.active {
   display: block;
 }
 
-
-.scroll-bar-image{
-  display:flex;
+.scroll-bar-image {
+  display: flex;
   justify-content: flex-end;
 }
-.scroll-bar-image img{
+
+.scroll-bar-image img {
   width: 40px;
   height: 40px;
   cursor: pointer;
 }
 
-.scroll-bar-list{
+.scroll-bar-list {
   display: flex;
   flex-direction: column;
   cursor: pointer;
 }
 
-.scroll-bar-list li{
+.scroll-bar-list li {
   list-style: none;
   font-size: 32px;
   font-weight: 600;
-  color: #3A4A42;
+  color: #3a4a42;
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 40px;
+}
+
+.scroll-bar-list li a{
+  text-decoration: none;
 }
 
 .about-me-card img {
@@ -424,8 +429,8 @@ textarea {
     column-gap: 32px;
   }
 
-  .menu.active{
-    display:flex;
+  .menu.active {
+    display: flex;
   }
 
   .menu-mobile {
@@ -440,8 +445,8 @@ textarea {
     text-decoration: none;
   }
 
-  .scroll-bar.active{
-    display:none;
+  .scroll-bar.active {
+    display: none;
   }
 
   .headline-container {
