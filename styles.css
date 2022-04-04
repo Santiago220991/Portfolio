@@ -38,6 +38,7 @@ body {
 
 .scroll-bar{
   display: none;
+  height: 755px;
 }
 
 .scroll-bar.active{
@@ -48,6 +49,11 @@ body {
 .scroll-bar-image{
   display:flex;
   justify-content: flex-end;
+}
+.scroll-bar-image img{
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
 }
 
 .scroll-bar-list{
@@ -77,6 +83,7 @@ body {
 .menu nav img {
   height: 50px;
   width: 50px;
+  cursor: pointer;
 }
 
 .myinfo {
@@ -423,6 +430,10 @@ textarea {
     font-size: 15px;
     font-weight: 600;
     text-decoration: none;
+  }
+
+  .scroll-bar.active{
+    display:none;
   }
 
   .headline-container {
