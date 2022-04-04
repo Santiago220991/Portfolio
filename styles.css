@@ -37,8 +37,13 @@ body {
 }
 
 .scroll-bar{
-  
+  display: none;
 }
+
+.scroll-bar.active{
+  display: block;
+}
+
 
 .scroll-bar-image{
   display:flex;
