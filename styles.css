@@ -75,7 +75,14 @@ body {
   margin-bottom: 40px;
 }
 
-.scroll-bar-list li a{
+.email-container a {
+  color: #42526e;
+  font-size: 4vw;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.scroll-bar-list li a {
   text-decoration: none;
 }
 
@@ -409,13 +416,6 @@ textarea {
 
 .email-container {
   margin-bottom: 200px;
-}
-
-.email-container a {
-  color: #42526e;
-  font-size: 4vw;
-  font-weight: 400;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 @media screen and (min-width: 768px) {
