@@ -419,7 +419,11 @@ textarea {
 }
 
 .popupcontainer{
- 
+ display: none;
+}
+
+.popupcontainer.active{
+  display:block;
 }
 .popupimage{
   display:flex;
