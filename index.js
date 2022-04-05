@@ -68,21 +68,26 @@ let data=[
 
 let popupcontainer=document.createElement('div')
 popupcontainer.className="popupcontainer"
+
 let imga=document.createElement('img')
 imga.src=data[0].image
 imga.className="imga"
 popupcontainer.appendChild(imga)
+
 let imgb=document.createElement('img')
 imgb.className="imgb"
 imgb.src="./images/quit_white_img.png"
 popupcontainer.appendChild(imgb)
+
 let popupdiv=document.createElement('div')
 popupdiv.className="popupdiv"
 popupcontainer.appendChild(popupdiv)
+
 let popuptitle=document.createElement('h3')
 popuptitle.className="popuptitle"
 popuptitle.textContent=data[0].name
 popupdiv.appendChild(popuptitle)
+
 let popuptechs=document.createElement('ul')
 popuptechs.className="popuptechs"
 popupdiv.appendChild(popuptechs)
@@ -92,41 +97,46 @@ data[0].technologies.forEach(element =>{
   popuptechsitem.textContent=element
   popuptechs.appendChild(popuptechsitem)
 })
+
 let popuptext=document.createElement('p')
 popuptext.className="popuptext"
 popuptext.textContent=data[0].description
 popupdiv.appendChild(popuptext)
+
 let popupfooter=document.createElement('div')
 popupfooter.className="popupfooter"
 popupdiv.appendChild(popupfooter)
-let popupbutton=document.createElement('button')
-popupbutton.className='popupbutton'
-popupbutton.onclick=data[0].liveversion
-popupfooter.append(popupbutton)
-let buttontext=document.createElement('a')
-buttontext.className='buttontext'
-buttontext.textContent='See Live'
-/buttontext.href=data[0].liveversion/
-popupbutton.append(buttontext)
+
+
+let footerbutton=document.createElement('a')
+footerbutton.className='footerbutton'
+footerbutton.href=data[0].liveversion
+popupfooter.append(footerbutton)
+
+let buttontext=document.createElement('div')
+buttontext.className="buttontext"
+buttontext.innerHTML='<p>See Live</p>'
+popupfooter.appendChild(buttontext)
+
 let buttonimage=document.createElement('img')
 buttonimage.className='buttonimage'
 buttonimage.src="./images/github_white_img.png"
-popupbutton.appendChild(buttonimage)
+popupfooter.appendChild(buttonimage)
 
-popupbutton=document.createElement('button')
-popupbutton.className='popupbutton'
-popupbutton.type="button"
-popupbutton.onclick="gola"
-console.log(data[0].source)
-popupfooter.append(popupbutton)
-buttontext=document.createElement('a')
-buttontext.className='buttontext'
-buttontext.textContent='See Source'
-/buttontext.href=data[0].source/
-popupbutton.append(buttontext)
+footerbutton=document.createElement('a')
+footerbutton.className='footerbutton'
+footerbutton.href=data[0].liveversion
+popupfooter.append(footerbutton)
+
+buttontext=document.createElement('div')
+buttontext.className="buttontext"
+buttontext.innerHTML='<p>See Live</p>'
+popupfooter.appendChild(buttontext)
+
 buttonimage=document.createElement('img')
 buttonimage.className='buttonimage'
-buttonimage.src="./images/source_img.png"
-popupbutton.appendChild(buttonimage)
+buttonimage.src="./images/github_white_img.png"
+popupfooter.appendChild(buttonimage)
+
 
 document.body.appendChild(popupcontainer)
