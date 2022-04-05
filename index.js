@@ -94,6 +94,7 @@ console.log(popupwindow)
 popupwindow.classList.toggle('active')
 popupquit.addEventListener('click', () =>{
   popupwindow.classList.remove('active')
+  popupwindow.remove()
 } )
 
 })
