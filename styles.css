@@ -418,6 +418,93 @@ textarea {
   margin-bottom: 200px;
 }
 
+.popupcontainer{
+ 
+}
+.popupimage{
+  display:flex;
+  border-radius: 10px;
+}
+.imga{
+  width: 100%;
+}
+.imgb{
+  position:absolute;
+  right:0;
+
+  width: 40px;
+  height: 40px;
+  background-color: wheat;
+}
+
+.popuptitle{
+  color:#172B4D;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.popuptechs{
+  padding-left: 0;
+  display:flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.popuptechsitem{
+  list-style: none;
+  background-color: #EBF0EE;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #3A4A42;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.popuptext{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #344563;
+}
+
+.popupfooter{
+  display:flex;
+  justify-content: space-around;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.footerbutton{
+  display: flex;
+  background-color: #36B37F;
+  column-gap: 8px;
+  text-decoration: none;
+  align-items: center;
+}
+
+.buttontext p{
+  padding-left: 16px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
+}
+.buttonimage{
+  height: 30px;
+  width: 45px;
+  padding-right: 16px;
+}
+
 @media screen and (min-width: 768px) {
   body {
     margin: 0;

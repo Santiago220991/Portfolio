@@ -3,7 +3,15 @@ const sbar = document.querySelector('.scroll-bar');
 const quitbutton = document.querySelector('.scroll-bar-image img');
 const sbarbuttons = document.querySelectorAll('.scroll-bar-list');
 const bmenu = document.querySelector('.menu');
-
+const greenbutton= document.querySelectorAll('.works button')
+var i
+greenbutton.forEach((element,index)=>{
+  element.addEventListener('click', ()=>{
+    i=index
+    console.log(i)
+    projects(i)
+  })
+})
 togglebutton.addEventListener('click', () => {
   sbar.classList.toggle('active');
   bmenu.classList.toggle('active');
@@ -66,18 +74,23 @@ let data=[
     
   ]
 
+
+function projects(i){
 let popupcontainer=document.createElement('div')
 popupcontainer.className="popupcontainer"
 
+let popupimage=document.createElement('div')
+popupimage.className="popupimage"
+popupcontainer.appendChild(popupimage)
 let imga=document.createElement('img')
-imga.src=data[0].image
+imga.src=data[i].image
 imga.className="imga"
-popupcontainer.appendChild(imga)
+popupimage.appendChild(imga)
 
 let imgb=document.createElement('img')
 imgb.className="imgb"
 imgb.src="./images/quit_white_img.png"
-popupcontainer.appendChild(imgb)
+popupimage.appendChild(imgb)
 
 let popupdiv=document.createElement('div')
 popupdiv.className="popupdiv"
@@ -85,13 +98,13 @@ popupcontainer.appendChild(popupdiv)
 
 let popuptitle=document.createElement('h3')
 popuptitle.className="popuptitle"
-popuptitle.textContent=data[0].name
+popuptitle.textContent=data[i].name
 popupdiv.appendChild(popuptitle)
 
 let popuptechs=document.createElement('ul')
 popuptechs.className="popuptechs"
 popupdiv.appendChild(popuptechs)
-data[0].technologies.forEach(element =>{
+data[i].technologies.forEach(element =>{
   let popuptechsitem=document.createElement('li')
   popuptechsitem.className="popuptechsitem"
   popuptechsitem.textContent=element
@@ -100,7 +113,7 @@ data[0].technologies.forEach(element =>{
 
 let popuptext=document.createElement('p')
 popuptext.className="popuptext"
-popuptext.textContent=data[0].description
+popuptext.textContent=data[i].description
 popupdiv.appendChild(popuptext)
 
 let popupfooter=document.createElement('div')
@@ -110,33 +123,35 @@ popupdiv.appendChild(popupfooter)
 
 let footerbutton=document.createElement('a')
 footerbutton.className='footerbutton'
-footerbutton.href=data[0].liveversion
+footerbutton.href=data[i].liveversion
 popupfooter.append(footerbutton)
 
 let buttontext=document.createElement('div')
 buttontext.className="buttontext"
 buttontext.innerHTML='<p>See Live</p>'
-popupfooter.appendChild(buttontext)
+footerbutton.appendChild(buttontext)
 
 let buttonimage=document.createElement('img')
 buttonimage.className='buttonimage'
-buttonimage.src="./images/github_white_img.png"
-popupfooter.appendChild(buttonimage)
+buttonimage.src="./images/source_img.png"
+footerbutton.appendChild(buttonimage)
 
 footerbutton=document.createElement('a')
 footerbutton.className='footerbutton'
-footerbutton.href=data[0].liveversion
+footerbutton.href=data[i].source
 popupfooter.append(footerbutton)
 
 buttontext=document.createElement('div')
 buttontext.className="buttontext"
-buttontext.innerHTML='<p>See Live</p>'
-popupfooter.appendChild(buttontext)
+buttontext.innerHTML='<p>See Source</p>'
+footerbutton.appendChild(buttontext)
 
 buttonimage=document.createElement('img')
 buttonimage.className='buttonimage'
 buttonimage.src="./images/github_white_img.png"
-popupfooter.appendChild(buttonimage)
+footerbutton.appendChild(buttonimage)
 
 
 document.body.appendChild(popupcontainer)
+
+}
