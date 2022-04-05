@@ -2,13 +2,14 @@
 
 # Project Name
 
-> Portfolio Project
+> Personal Portfolio 
 
 
 ## Built With
 
 - HTML
 - CSS
+- JAVASCRIPT
 
 ## Live Demo
 
@@ -28,6 +29,7 @@
 
 **This project was made with HTML, CSS, and Javascript.**
 
+
 To get a local copy up and running follow these simple example steps.
 
 
@@ -36,11 +38,21 @@ To get a local copy up and running follow these simple example steps.
 - Clone the repository.
 - Open a browser an introduce the next URL http://127.0.0.1:5501/index.html
 
+
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/Santiago220991)
+- GitHub: [@githubhandle](https://github.com/Santiago220991) 
+- Twitter: [@twitterhandle](https://twitter.com/SanCardenas10)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/santiago-cárdenas-671043160/)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Santiago220991/Portfolio/issues).
 
 
 ## Show your support
