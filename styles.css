@@ -403,8 +403,8 @@ textarea {
   margin-bottom: 0;
 }
 
-.submit-container{
-  display:flex;
+.submit-container {
+  display: flex;
   justify-content: center;
   gap: 12px;
 }
@@ -420,17 +420,15 @@ textarea {
   border: none;
 }
 
-.message-error{
+.message-error {
   color: red;
   font-size: 17px;
   display: none;
-  
 }
 
-.message-error.active{
+.message-error.active {
   display: block;
 }
-
 
 .email-container {
   margin-bottom: 200px;

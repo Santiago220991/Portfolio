@@ -61,9 +61,9 @@ const quitbutton = document.querySelector('.scroll-bar-image img');
 const sbarbuttons = document.querySelectorAll('.scroll-bar-list');
 const bmenu = document.querySelector('.menu');
 const greenbutton = document.querySelectorAll('.works button');
-const emailinput=document.querySelector('.email')
-const form=document.querySelector('form')
-const msgerror=document.querySelector('.message-error')
+const emailinput = document.querySelector('.email');
+const form = document.querySelector('form');
+const msgerror = document.querySelector('.message-error');
 
 let i;
 greenbutton.forEach((element, index) => {
@@ -172,13 +172,12 @@ sbarbuttons.forEach((element) => {
   });
 });
 
-
-form.addEventListener('submit', (event) =>{
+form.addEventListener('submit', (event) => {
   event.preventDefault();
-  if(emailinput.value===((emailinput.value).toLowerCase())){
-   form.submit()
-   msgerror.classList.remove('active')
-  }else{
-    msgerror.classList.add('active')
+  if (emailinput.value === ((emailinput.value).toLowerCase())) {
+    form.submit();
+    msgerror.classList.remove('active');
+  } else {
+    msgerror.classList.add('active');
   }
-})
+});
