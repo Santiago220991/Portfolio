@@ -436,7 +436,7 @@ textarea {
   background-color: #ffff;
   padding: 12px;
   border-radius: 8px 8px 0 0;
-  height: 30%;
+  height: 24%;
 }
 
 .imga {
@@ -447,9 +447,10 @@ textarea {
 
 .imgb {
   position: absolute;
-  right: 26px;
-  width: 40px;
-  height: 40px;
+  right: 30px;
+  top: 30px;
+  width: 15px;
+  height: 15px;
   background-color: gainsboro;
 }
 
@@ -809,6 +810,7 @@ textarea {
   }
 .popupimage{
     height: 30%;
+    padding-top: 60px;
 }
   .imga {
     width: 100%;
@@ -822,6 +824,7 @@ textarea {
     height: 40px;
     background-color: gainsboro;
     cursor: pointer;
+    border-radius: 8px;
   }
 
   .popupdiv {
