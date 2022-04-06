@@ -440,6 +440,7 @@ textarea {
 .imga{
   width: 100%;
   height: 320px;
+  border-radius: 8px;
 }
 .imgb{
   position:absolute;
@@ -785,5 +786,50 @@ textarea {
 
   .about-me-card:hover {
     border: blue 2px solid;
+  }
+
+  .popupcontainer{
+ display: none;
+ position: fixed;
+ width: 100%;
+ height: 100%;
+ top:0%;
+ background-color: #DFE1E6;
+ padding: 260px;
+ padding-top: 3%;
+ opacity: 0.98;
+  }
+
+  .imga{
+    width: 100%;
+    height: 400px;
+  }
+
+  .imgb{
+    position:absolute;
+    right:273px;
+    width: 40px;
+    height: 40px;
+    background-color:gainsboro;
+  }
+
+  .popupdiv{
+    display:flex;
+    flex-wrap: wrap;
+  }
+  .popuptitle{
+    order:-2;
+    width:60%;  
+    flex-grow: 1;  
+  }
+  .popupfooter{
+    order:-1;
+    flex-basis:20%;
+    flex-grow: 1;
+    justify-content: flex-end;
+  }
+
+  .popuptechs{
+    flex-basis: 100%;
   }
 }
