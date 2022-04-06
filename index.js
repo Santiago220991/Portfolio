@@ -176,11 +176,9 @@ sbarbuttons.forEach((element) => {
 form.addEventListener('submit', (event) =>{
   event.preventDefault();
   if(emailinput.value===((emailinput.value).toLowerCase())){
-   console.log(emailinput.value)
+   form.submit()
    msgerror.classList.remove('active')
   }else{
-    console.log("error")
     msgerror.classList.add('active')
   }
-  
 })

@@ -403,6 +403,12 @@ textarea {
   margin-bottom: 0;
 }
 
+.submit-container{
+  display:flex;
+  justify-content: center;
+  gap: 12px;
+}
+
 #footer-button {
   color: #ffff;
   font-size: 17px;
@@ -413,6 +419,18 @@ textarea {
   padding: 12px;
   border: none;
 }
+
+.message-error{
+  color: red;
+  font-size: 17px;
+  display: none;
+  
+}
+
+.message-error.active{
+  display: block;
+}
+
 
 .email-container {
   margin-bottom: 200px;
