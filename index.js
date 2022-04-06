@@ -1,7 +1,7 @@
 const data = [
   {
     name: 'Youtube Page Project',
-    description: ' A basic page to learn how to use flexbox, hover, etc...',
+    description: ' A basic page to learn how to use flexbox, hover, etc Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam consectetur nemo corporis ipsa illum pariatur quasi asperiores optio animi! Voluptas delectus dolorum aut odit accusantium quis sint velit eum ducimus.',
     image: './images/youtube_page_img.png',
     technologies: ['HTML', 'CSS'],
     liveversion: 'https://santiago220991.github.io/youtubepage/',
@@ -10,7 +10,7 @@ const data = [
 
   {
     name: 'Tribute Page',
-    description: 'This is a basic example of a tribute page. It was a project made it in Microverse trials',
+    description: 'This is a basic example of a tribute page. It was a project made it in Microverse trials Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam consectetur nemo corporis ipsa illum pariatur quasi asperiores optio animi! Voluptas delectus dolorum aut odit accusantium quis sint velit eum ducimus.',
     image: './images/tribute_page_img.png',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     liveversion: 'https://santiago220991.github.io/Tribute-Page/',
@@ -19,7 +19,7 @@ const data = [
 
   {
     name: 'Hello World: First Project',
-    description: 'This is my first project. It is a very simple project to learn how to use Github and HTML',
+    description: 'This is my first project. It is a very simple project to learn how to use Github and HTML Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam consectetur nemo corporis ipsa illum pariatur quasi asperiores optio animi! Voluptas delectus dolorum aut odit accusantium quis sint velit eum ducimus.',
     image: './images/hello_world_img.png',
     technologies: ['HTML'],
     liveversion: 'https://santiago220991.github.io/Hello-World/',
@@ -28,7 +28,7 @@ const data = [
 
   {
     name: 'Portfolio: Bootstrap',
-    description: 'This is a project to learn how to use Bootstrap 5. This is the same portfolio buy it was made it using Bootstrap with my coding partner',
+    description: 'This is a project to learn how to use Bootstrap 5. This is the same portfolio buy it was made it using Bootstrap with my coding partner Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam consectetur nemo corporis ipsa illum pariatur quasi asperiores optio animi! Voluptas delectus dolorum aut odit accusantium quis sint velit eum ducimus.',
     image: './images/portfolio_bootstrap_img.png',
     technologies: ['HTML', 'CSS', 'Bootstrap'],
     liveversion: 'https://santiago220991.github.io/Bootstrap-project/',
@@ -37,7 +37,7 @@ const data = [
 
   {
     name: 'App Salon',
-    description: "This Project was not made by me. It is a friend's project. This project will be replaced for another project made by myself",
+    description: "This Project was not made by me. It is a friend's project. This project will be replaced for another project made by myself Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam consectetur nemo corporis ipsa illum pariatur quasi asperiores optio animi! Voluptas delectus dolorum aut odit accusantium quis sint velit eum ducimus.",
     image: './images/app_salon_img.png',
     technologies: ['HTML', 'CSS', 'Javascript'],
     liveversion: 'https://santiago220991.github.io/AppSalon/',
@@ -46,7 +46,7 @@ const data = [
 
   {
     name: 'Calculator',
-    description: "This Project was not made by me. It is a friend's project. This project will be replaced for another project made by myself",
+    description: "This Project was not made by me. It is a friend's project. This project will be replaced for another project made by myself Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam consectetur nemo corporis ipsa illum pariatur quasi asperiores optio animi! Voluptas delectus dolorum aut odit accusantium quis sint velit eum ducimus.",
     image: './images/calculator_img.png',
     technologies: ['HTML', 'CSS', 'Javascript', 'React'],
     liveversion: 'https://santiago220991.github.io/Math-magician/',
