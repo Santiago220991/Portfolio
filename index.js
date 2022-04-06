@@ -13,7 +13,7 @@ const data = [
     description: 'This is a basic example of a tribute page. It was a project made it in Microverse trials',
     image: './images/tribute_page_img.png',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    liveversion: 'https://santiago220991.github.io/Microverse-Trial/',
+    liveversion: 'https://santiago220991.github.io/Tribute-Page/',
     source: 'https://github.com/Santiago220991/Tribute-Page',
   },
 
