@@ -196,6 +196,8 @@ let storage={
 
     function populateStorage() {
       storage.data[0]=emailinput.value
+      storage.data[1]=nameinput.value
+      storage.data[2]=textareabox.value
       localStorage.setItem('session', JSON.stringify(storage));
       setStyles();
     }
@@ -203,6 +205,10 @@ let storage={
     function setStyles() {
       var sessionsaved=JSON.parse(localStorage.getItem('session'))
       emailinput.value = sessionsaved.data[0];
+      nameinput.value =sessionsaved.data[1];
+      textareabox.value=sessionsaved.data[2];
     }
     emailinput.onchange = populateStorage;
+    nameinput.onchange = populateStorage;
+    textareabox.onchange = populateStorage;
 
