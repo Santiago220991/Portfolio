@@ -181,3 +181,28 @@ form.addEventListener('submit', (event) => {
     msgerror.classList.add('active');
   }
 });
+
+const nameinput=document.querySelector('.name')
+const textareabox=document.querySelector('.textarea')
+let storage={
+  data:['']
+}
+
+    if(!localStorage.getItem('session')) {
+      populateStorage();
+    } else {
+      setStyles();
+    }
+
+    function populateStorage() {
+      storage.data[0]=emailinput.value
+      localStorage.setItem('session', JSON.stringify(storage));
+      setStyles();
+    }
+
+    function setStyles() {
+      var sessionsaved=JSON.parse(localStorage.getItem('session'))
+      emailinput.value = sessionsaved.data[0];
+    }
+    emailinput.onchange = populateStorage;
+
