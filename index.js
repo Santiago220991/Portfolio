@@ -64,6 +64,8 @@ const greenbutton = document.querySelectorAll('.works button');
 const emailinput = document.querySelector('.email');
 const form = document.querySelector('form');
 const msgerror = document.querySelector('.message-error');
+const nameinput = document.querySelector('.name');
+const textareabox = document.querySelector('.textarea');
 
 let i;
 greenbutton.forEach((element, index) => {
@@ -181,3 +183,30 @@ form.addEventListener('submit', (event) => {
     msgerror.classList.add('active');
   }
 });
+
+const storage = {
+  data: [''],
+};
+
+function setStyles() {
+  const sessionsaved = JSON.parse(localStorage.getItem('session'));
+  [emailinput.value, nameinput.value, textareabox.value] = sessionsaved.data;
+}
+
+function populateStorage() {
+  storage.data[0] = emailinput.value;
+  storage.data[1] = nameinput.value;
+  storage.data[2] = textareabox.value;
+  localStorage.setItem('session', JSON.stringify(storage));
+  setStyles();
+}
+
+if (!localStorage.getItem('session')) {
+  populateStorage();
+} else {
+  setStyles();
+}
+
+emailinput.onchange = populateStorage;
+nameinput.onchange = populateStorage;
+textareabox.onchange = populateStorage;
