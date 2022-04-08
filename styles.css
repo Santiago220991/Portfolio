@@ -220,8 +220,7 @@ form > * {
 .works-card {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  background-color: #ebf0ee;
+  justify-content: space-between;
   border: solid #d0d9d4 2px;
   border-radius: 8px;
 }
@@ -364,7 +363,7 @@ form > * {
 }
 
 .snapshot {
-  height: auto;
+  height: 300px;
   width: 100%;
 }
 
