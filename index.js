@@ -1,4 +1,3 @@
-
 const data = [
   {
     name: 'Youtube Page Project',
@@ -66,13 +65,13 @@ const form = document.querySelector('form');
 const msgerror = document.querySelector('.message-error');
 const nameinput = document.querySelector('.name');
 const textareabox = document.querySelector('.textarea');
-const workssection= document.querySelector('.works')
+const workssection = document.querySelector('.works');
 let i;
 let j;
-for(j=0; j<=5; j++){
-  const workcard=document.createElement('div')
-  workcard.className="works-card"
-  workcard.innerHTML=`<div class="snapshot-container">
+for (j = 0; j <= 5; j += 1) {
+  const workcard = document.createElement('div');
+  workcard.className = 'works-card';
+  workcard.innerHTML = `<div class="snapshot-container">
   <img
     class="snapshot"
     src="${data[j].image}"
@@ -80,22 +79,19 @@ for(j=0; j<=5; j++){
   />
 </div>
 <div>
-  <h3>${data[j].name}</h3></div>`
-  const workcardul=document.createElement('ul')
-  workcard.appendChild(workcardul)
+  <h3>${data[j].name}</h3></div>`;
+  const workcardul = document.createElement('ul');
+  workcard.appendChild(workcardul);
 
-  data[j].technologies.forEach(element => {
-    console.log(element)
-    const workcardli=document.createElement('li')
-    workcardli.textContent=element
-    console.log(workcardli)
-    workcardul.appendChild(workcardli)
-  })
-  workssection.appendChild(workcard)
-  workcard.innerHTML+=`<div><button type="button">See Project</button></div>`
+  data[j].technologies.forEach((element) => {
+    const workcardli = document.createElement('li');
+    workcardli.textContent = element;
+    workcardul.appendChild(workcardli);
+  });
+  workssection.appendChild(workcard);
+  workcard.innerHTML += '<div><button type="button">See Project</button></div>';
 }
 const greenbutton = document.querySelectorAll('.works button');
-
 
 greenbutton.forEach((element, index) => {
   element.addEventListener('click', () => {
