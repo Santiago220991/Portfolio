@@ -3,7 +3,7 @@ const data = [
     name: 'Music Band Web Page',
     description: 'This is a music band web page. It contains information like: Albums, Videos, Pictures, Shop. This project was made with HTML, CSS, Javascript and Boostrap 5.',
     image: './images/music_band_web_page.png',
-    technologies: ['HTML', 'CSS','JavaScript', 'Bootstrap'],
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
     liveversion: 'https://santiago220991.github.io/Music-Band-Web-Page/',
     source: 'https://github.com/Santiago220991/Music-Band-Web-Page',
   },
