@@ -1,11 +1,11 @@
 const data = [
   {
-    name: 'Youtube Page Project',
-    description: 'A basic page to learn how to use flexbox, hover, etc Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam consectetur nemo corporis ipsa illum pariatur quasi asperiores optio animi! Voluptas delectus dolorum aut odit accusantium quis sint velit eum ducimus.',
-    image: './images/youtube_page_img.png',
-    technologies: ['HTML', 'CSS', 'Ruby on Rails', 'Javascript', 'Bootstrap', 'React'],
-    liveversion: 'https://santiago220991.github.io/youtubepage/',
-    source: 'https://github.com/Santiago220991/youtubepage',
+    name: 'Music Band Web Page',
+    description: 'This is a music band web page. It contains information like: Albums, Videos, Pictures, Shop. This project was made with HTML, CSS, Javascript and Boostrap 5.',
+    image: './images/music_band_web_page.png',
+    technologies: ['HTML', 'CSS','JavaScript', 'Bootstrap'],
+    liveversion: 'https://santiago220991.github.io/Music-Band-Web-Page/',
+    source: 'https://github.com/Santiago220991/Music-Band-Web-Page',
   },
 
   {
