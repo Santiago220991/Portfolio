@@ -464,9 +464,9 @@ textarea {
   position: absolute;
   right: 30px;
   top: 30px;
-  width: 15px;
-  height: 15px;
-  background-color: gainsboro;
+  width: 20px;
+  height: 20px;
+  background-color: gray;
 }
 
 .popupdiv {
@@ -818,8 +818,8 @@ textarea {
     top: 0%;
     height: 170%;
     background-color: #dfe1e6;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 25%;
+    padding-right: 25%;
     padding-top: 20px;
     opacity: 0.98;
   }
@@ -836,7 +836,7 @@ textarea {
 
   .imgb {
     position: absolute;
-    right: 210px;
+    right: 26%;
     width: 40px;
     height: 40px;
     background-color: gainsboro;
