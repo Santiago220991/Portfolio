@@ -9,12 +9,12 @@ const data = [
   },
 
   {
-    name: 'Tribute Page',
-    description: 'This is a basic example of a tribute page. It was a project made it in Microverse trials Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam consectetur nemo corporis ipsa illum pariatur quasi asperiores optio animi! Voluptas delectus dolorum aut odit accusantium quis sint velit eum ducimus.',
-    image: './images/tribute_page_img.png',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'Ruby on Rails', 'React'],
-    liveversion: 'https://santiago220991.github.io/Tribute-Page/',
-    source: 'https://github.com/Santiago220991/Tribute-Page',
+    name: 'To Do List',
+    description: 'This is a To Do List. It shows a minimalist desing with the nex features: Add new tasks, edit tasks, markup completed tasks, and erase completed tasks. This project was build with HTML, CSS and Javascript.',
+    image: './images/Todays_To_Do_img.png',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    liveversion: 'https://santiago220991.github.io/To-Do-List/dist/',
+    source: 'https://github.com/Santiago220991/To-Do-List',
   },
 
   {
