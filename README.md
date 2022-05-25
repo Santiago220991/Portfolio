@@ -1,8 +1,15 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Personal Portfolio 
 
-> Personal Portfolio 
+> **This is my portfolio. It contains information like:**
+
+- Projects
+- Skills
+- It also contains a section to contact me.
+
+This project was made with HTML, CSS, and Javascript.
+
 
 
 ## Built With
@@ -17,19 +24,6 @@
 
 ## Getting Started
 
-**This is my portfolio. It contains information like:**
-
-**Projects**
-
-**Skills**
-
-**Hobbies**
-
-**It also contains a section to contact me.**
-
-**This project was made with HTML, CSS, and Javascript.**
-
-
 To get a local copy up and running follow these simple example steps.
 
 
@@ -41,7 +35,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Santiago**
 
 - GitHub: [@githubhandle](https://github.com/Santiago220991) 
 - Twitter: [@twitterhandle](https://twitter.com/SanCardenas10)
