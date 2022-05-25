@@ -31,8 +31,8 @@ To get a local copy up and running follow these simple example steps.
 ## Setup
 
 - Clone the repository.
+- Whit your code editor open the folder where you cloned the repository.
 - In your code editor open the index.html file with a live server.
-- Open a browser an introduce the next URL http://127.0.0.1:5501/index.html
 
 
 ## Authors
