@@ -4,9 +4,10 @@
 
 > **This is my portfolio. It contains information like:**
 
-- Projects
+- Recent projects
 - Skills
-- It also contains a section to contact me.
+- Contact me section.
+- It has a mobile version.
 
 This project was made with HTML, CSS, and Javascript.
 
@@ -26,10 +27,10 @@ This project was made with HTML, CSS, and Javascript.
 
 To get a local copy up and running follow these simple example steps.
 
-
 ## Setup
 
 - Clone the repository.
+- In your code editor open the index.html file with a live server.
 - Open a browser an introduce the next URL http://127.0.0.1:5501/index.html
 
 
