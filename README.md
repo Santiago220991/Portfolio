@@ -7,9 +7,8 @@
 - Recent projects
 - Skills
 - Contact me section.
-- It has a mobile version.
 
-This project was made with HTML, CSS, and Javascript.
+This project was made with HTML, CSS, and Javascript. It also has a mobile version.
 
 ![Porfolio](https://user-images.githubusercontent.com/98363075/170170409-21bd01cd-f8f8-452e-9c96-5af564119e33.png)
 
