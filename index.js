@@ -46,7 +46,7 @@ const data = [
 
   {
     name: 'Math Magicians',
-    description: "This is a webpage that shows a functional calculator with the next basic functions: Addition, Subtraction, Multiplication and Division",
+    description: "This is a SPA webpage that shows a functional calculator with the next basic functions: Addition, Subtraction, Multiplication and Division. Built with React and JavaScript",
     image: './images/calculator_img.png',
     technologies: ['HTML', 'CSS', 'Javascript', 'React'],
     liveversion: 'https://santiago-math-magicians.netlify.app',
