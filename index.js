@@ -45,12 +45,12 @@ const data = [
   },
 
   {
-    name: 'Calculator',
-    description: "This Project was not made by me. It is a friend's project. This project will be replaced for another project made by myself Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam consectetur nemo corporis ipsa illum pariatur quasi asperiores optio animi! Voluptas delectus dolorum aut odit accusantium quis sint velit eum ducimus.",
+    name: 'Math Magicians',
+    description: "This is a webpage that shows a functional calculator with the next basic functions: Addition, Subtraction, Multiplication and Division",
     image: './images/calculator_img.png',
     technologies: ['HTML', 'CSS', 'Javascript', 'React'],
-    liveversion: 'https://santiago220991.github.io/Math-magician/',
-    source: 'https://github.com/Santiago220991/Math-magician',
+    liveversion: 'https://santiago-math-magicians.netlify.app',
+    source: 'https://github.com/Santiago220991/math-magicians',
   },
 
 ];
