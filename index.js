@@ -1,11 +1,38 @@
 const data = [
   {
-    name: 'Music Band Web Page',
-    description: 'This is a music band web page. It contains information like: Albums, Videos, Pictures, Shop. This project was made with HTML, CSS, Javascript and Boostrap 5.',
-    image: './images/music_band_web_page.png',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
-    liveversion: 'https://santiago220991.github.io/Music-Band-Web-Page/',
-    source: 'https://github.com/Santiago220991/Music-Band-Web-Page',
+    name: 'France Ligue 1 Stats',
+    description: 'This is a Single Page Application that shows the list of teams that belong to the France Ligue 1. This project uses an API to get the data, just the mobile version of the project was designed and has the next features: Show the list of teams that contest in the France League 1 season 2021-2022 and show the stats of each team during the contest.',
+    image: './images/france_ligue1_img.png',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'Redux'],
+    liveversion: 'https://santiago-france-ligue1-stats.netlify.app/',
+    source: 'https://github.com/Santiago220991/France-Ligue-1-Stats',
+  },
+
+  {
+    name: 'Bookstore',
+    description: "This is a Bookstore webpage. This project uses an API to store the books. It shows a booklist with the next features: Show the book's title and author, add a new book and remove a book.",
+    image: 'https://user-images.githubusercontent.com/98363075/175354896-7e9ef2a9-aece-4a36-ae4a-1245fb758d76.png',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'Redux'],
+    liveversion: 'https://santiago-bookstore.netlify.app/',
+    source: 'https://github.com/Santiago220991/Bookstore',
+  },
+
+  {
+    name: 'Math Magicians',
+    description: "This is a SPA webpage that shows a functional calculator with the next basic functions: Addition, Subtraction, Multiplication and Division.",
+    image: './images/calculator_img.png',
+    technologies: ['HTML', 'CSS', 'Javascript', 'React'],
+    liveversion: 'https://santiago-math-magicians.netlify.app/',
+    source: 'https://github.com/Santiago220991/math-magicians', 
+  },
+
+  {
+    name: 'Commedy Movies Web Page',
+    description: "This is a movie web page it was built using two APIs. One to get the movie's data and the other to save comments and the number of likes of each movie.",
+    image: 'https://user-images.githubusercontent.com/98363075/172874651-7c73b26f-4b7b-4292-bab7-1372173cc812.png',
+    technologies: ['HTML', 'CSS','JavaScript'],
+    liveversion: 'https://santiago220991.github.io/JavaScript-Capstone/dist/',
+    source: 'https://github.com/Santiago220991/JavaScript-Capstone',
   },
 
   {
@@ -18,39 +45,12 @@ const data = [
   },
 
   {
-    name: 'Hello World: First Project',
-    description: 'This is my first project. It is a very simple project to learn how to use Github and HTML Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam consectetur nemo corporis ipsa illum pariatur quasi asperiores optio animi! Voluptas delectus dolorum aut odit accusantium quis sint velit eum ducimus.',
-    image: './images/hello_world_img.png',
-    technologies: ['HTML', 'JavaScript', 'Ruby on Rails', 'Bootstrap'],
-    liveversion: 'https://santiago220991.github.io/Hello-World/',
-    source: 'https://github.com/Santiago220991/Hello-World',
-  },
-
-  {
-    name: 'Portfolio: Bootstrap',
-    description: 'This is a project to learn how to use Bootstrap 5. This is the same portfolio buy it was made it using Bootstrap with my coding partner Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam consectetur nemo corporis ipsa illum pariatur quasi asperiores optio animi! Voluptas delectus dolorum aut odit accusantium quis sint velit eum ducimus.',
-    image: './images/portfolio_bootstrap_img.png',
-    technologies: ['HTML', 'CSS', 'Bootstrap', 'JavaScript'],
-    liveversion: 'https://santiago220991.github.io/Bootstrap-project/',
-    source: 'https://github.com/Santiago220991/Bootstrap-project',
-  },
-
-  {
-    name: 'App Salon',
-    description: "This Project was not made by me. It is a friend's project. This project will be replaced for another project made by myself Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam consectetur nemo corporis ipsa illum pariatur quasi asperiores optio animi! Voluptas delectus dolorum aut odit accusantium quis sint velit eum ducimus.",
-    image: './images/app_salon_img.png',
-    technologies: ['HTML', 'CSS', 'Javascript', 'Ruby on Rails', 'React', 'Bootstrap'],
-    liveversion: 'https://santiago220991.github.io/AppSalon/',
-    source: 'https://github.com/Santiago220991/AppSalon',
-  },
-
-  {
-    name: 'Math Magicians',
-    description: "This is a SPA webpage that shows a functional calculator with the next basic functions: Addition, Subtraction, Multiplication and Division. Built with React and JavaScript",
-    image: './images/calculator_img.png',
-    technologies: ['HTML', 'CSS', 'Javascript', 'React'],
-    liveversion: 'https://santiago-math-magicians.netlify.app',
-    source: 'https://github.com/Santiago220991/math-magicians',
+    name: 'Music Band Web Page',
+    description: 'This is a music band web page. It contains information like: Albums, Videos, Pictures, Shop. This project was made with HTML, CSS, Javascript and Boostrap 5.',
+    image: './images/music_band_web_page.png',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
+    liveversion: 'https://santiago220991.github.io/Music-Band-Web-Page/',
+    source: 'https://github.com/Santiago220991/Music-Band-Web-Page',
   },
 
 ];
