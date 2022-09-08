@@ -1,11 +1,11 @@
 const data = [
   {
-    name: 'France Ligue 1 Stats',
-    description: 'This is a Single Page Application that shows the list of teams that belong to the France Ligue 1. This project uses an API to get the data, just the mobile version of the project was designed and has the next features: Show the list of teams that contest in the France League 1 season 2021-2022 and show the stats of each team during the contest.',
-    image: './images/france_ligue1_img.png',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'Redux'],
-    liveversion: 'https://santiago-france-ligue1-stats.netlify.app/',
-    source: 'https://github.com/Santiago220991/France-Ligue-1-Stats',
+    name: 'Budget Calculator',
+    description: 'This app is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
+    image: './images/budget_calculator_img.png',
+    technologies: ['HTML', 'CSS', 'Ruby on Rails'],
+    liveversion: 'https://santiago-budget-calculator.herokuapp.com/',
+    source: 'https://github.com/Santiago220991/Budget-App',
   },
 
   {
@@ -36,12 +36,12 @@ const data = [
   },
 
   {
-    name: 'To Do List',
-    description: 'This is a To Do List. It shows a minimalist desing with the nex features: Add new tasks, edit tasks, markup completed tasks, and erase completed tasks. This project was build with HTML, CSS and Javascript.',
-    image: './images/Todays_To_Do_img.png',
-    technologies: ['HTML', 'CSS', 'JavaScript'],
-    liveversion: 'https://santiago220991.github.io/To-Do-List/dist/',
-    source: 'https://github.com/Santiago220991/To-Do-List',
+    name: 'France Ligue 1 Stats',
+    description: 'This is a Single Page Application that shows the list of teams that belong to the France Ligue 1. This project uses an API to get the data, just the mobile version of the project was designed and has the next features: Show the list of teams that contest in the France League 1 season 2021-2022 and show the stats of each team during the contest.',
+    image: './images/france_ligue1_img.png',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'Redux'],
+    liveversion: 'https://santiago-france-ligue1-stats.netlify.app/',
+    source: 'https://github.com/Santiago220991/France-Ligue-1-Stats',
   },
 
   {
