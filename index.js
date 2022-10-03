@@ -1,5 +1,14 @@
 const data = [
   {
+    name: 'Tourify',
+    description: "This is an app in which you can reserve a tour, create a tour, delete a tour and show all your reserved tours. This app was created by separating the Fron-End and the Back-End into two repositories.",
+    image: './images/tourify.png',
+    technologies: ['HTML', 'CSS','JavaScript', 'Ruby on Rails', 'React', 'Redux'],
+    liveversion: 'https://tourify-app.netlify.app/',
+    source: 'https://github.com/Santiago220991/Booking-Tours',
+  },
+
+  {
     name: 'Budget Calculator',
     description: 'This app is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
     image: './images/budget_calculator_img.png',
@@ -24,15 +33,6 @@ const data = [
     technologies: ['HTML', 'CSS', 'Javascript', 'React'],
     liveversion: 'https://santiago-math-magicians.netlify.app/',
     source: 'https://github.com/Santiago220991/math-magicians', 
-  },
-
-  {
-    name: 'Commedy Movies Web Page',
-    description: "This is a movie web page it was built using two APIs. One to get the movie's data and the other to save comments and the number of likes of each movie.",
-    image: 'https://user-images.githubusercontent.com/98363075/172874651-7c73b26f-4b7b-4292-bab7-1372173cc812.png',
-    technologies: ['HTML', 'CSS','JavaScript'],
-    liveversion: 'https://santiago220991.github.io/JavaScript-Capstone/dist/',
-    source: 'https://github.com/Santiago220991/JavaScript-Capstone',
   },
 
   {
