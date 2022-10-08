@@ -82,10 +82,6 @@ body {
   margin-right: 5%;
 }
 
-.scroll-bar-list li a:visited{
-  color: #172b4d;
-}
-
 .email-container a {
   color: #42526e;
   font-size: 4vw;
@@ -95,6 +91,10 @@ body {
 
 .scroll-bar-list li a {
   text-decoration: none;
+}
+
+.scroll-bar-list li a:visited {
+  color: #172b4d;
 }
 
 .about-me-card img {
@@ -144,7 +144,6 @@ body {
   to { transform: scale(1); }
 }
 
-
 .myinfo .p2 {
   color: lightgreen;
   margin: 0;
@@ -157,8 +156,9 @@ body {
   from {
     transform: translate(-700px);
   }
-  to{
-    transform: translate(0px);
+
+  to {
+    transform: translate(0);
   }
 }
 
@@ -172,7 +172,7 @@ body {
   color: #172b4d;
 }
 
-.info p{
+.info p {
   animation-name: entering-right;
   animation-duration: 2s;
 }
@@ -181,8 +181,9 @@ body {
   from {
     transform: translate(700px);
   }
-  to{
-    transform: translate(0px);
+
+  to {
+    transform: translate(0);
   }
 }
 
