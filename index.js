@@ -18,12 +18,12 @@ const data = [
   },
 
   {
-    name: 'Bookstore',
-    description: "This is a Bookstore webpage. This project uses an API to store the books. It shows a booklist with the next features: Show the book's title and author, add a new book and remove a book.",
-    image: 'https://user-images.githubusercontent.com/98363075/175354896-7e9ef2a9-aece-4a36-ae4a-1245fb758d76.png',
+    name: 'France Ligue 1 Stats',
+    description: 'This is a Single Page Application that shows the list of teams that belong to the France Ligue 1. This project uses an API to get the data, just the mobile version of the project was designed and has the next features: Show the list of teams that contest in the France League 1 season 2021-2022 and show the stats of each team during the contest.',
+    image: './images/france_ligue1_img.png',
     technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'Redux'],
-    liveversion: 'https://santiago-bookstore.netlify.app/',
-    source: 'https://github.com/Santiago220991/Bookstore',
+    liveversion: 'https://santiago-france-ligue1-stats.netlify.app/',
+    source: 'https://github.com/Santiago220991/France-Ligue-1-Stats',
   },
 
   {
@@ -36,12 +36,12 @@ const data = [
   },
 
   {
-    name: 'France Ligue 1 Stats',
-    description: 'This is a Single Page Application that shows the list of teams that belong to the France Ligue 1. This project uses an API to get the data, just the mobile version of the project was designed and has the next features: Show the list of teams that contest in the France League 1 season 2021-2022 and show the stats of each team during the contest.',
-    image: './images/france_ligue1_img.png',
+    name: 'Bookstore',
+    description: "This is a Bookstore webpage. This project uses an API to store the books. It shows a booklist with the next features: Show the book's title and author, add a new book and remove a book.",
+    image: 'https://user-images.githubusercontent.com/98363075/175354896-7e9ef2a9-aece-4a36-ae4a-1245fb758d76.png',
     technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'Redux'],
-    liveversion: 'https://santiago-france-ligue1-stats.netlify.app/',
-    source: 'https://github.com/Santiago220991/France-Ligue-1-Stats',
+    liveversion: 'https://santiago-bookstore.netlify.app/',
+    source: 'https://github.com/Santiago220991/Bookstore',
   },
 
   {
