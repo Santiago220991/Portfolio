@@ -10,7 +10,8 @@
 
 This project was made with HTML, CSS, and Javascript. It also has a mobile version.
 
-![Porfolio](https://user-images.githubusercontent.com/98363075/170170409-21bd01cd-f8f8-452e-9c96-5af564119e33.png)
+
+![Screenshot from 2022-10-19 23-31-35](https://user-images.githubusercontent.com/98363075/196856979-c9ed583a-ad62-4078-be26-85a90c47a7c2.png)
 
 
 ## Built With
