@@ -853,8 +853,9 @@ textarea {
   }
 
   .imga {
-    width: 100%;
+    width: 75%;
     height: 100%;
+    margin-left: 12%;
   }
 
   .imgb {
@@ -1157,8 +1158,9 @@ textarea {
   }
 
   .imga {
-    width: 100%;
+    width: 75%;
     height: 100%;
+    margin-left: 12%;
   }
 
   .imgb {

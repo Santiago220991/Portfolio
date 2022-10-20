@@ -19,7 +19,7 @@ const data = [
 
   {
     name: 'France Ligue 1 Stats',
-    description: 'This is a Single Page Application that shows the list of teams that belong to the France Ligue 1. This project uses an API to get the data, just the mobile version of the project was designed and has the next features: Show the list of teams that contest in the France League 1 season 2021-2022 and show the stats of each team during the contest.',
+    description: 'This is a Single Page Application that shows the list of teams that belong to the France Ligue 1 during the season 2020-2021. This project uses an API to get the data, just the mobile version of the project was designed.',
     image: './images/france_ligue1_img.png',
     technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'Redux'],
     liveversion: 'https://santiago-france-ligue1-stats.netlify.app/',
