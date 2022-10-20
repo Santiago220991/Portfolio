@@ -1,5 +1,3 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # Personal Portfolio 
 
 > **This is my portfolio. It contains information like:**
