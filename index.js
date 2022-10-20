@@ -11,7 +11,7 @@ const data = [
   {
     name: 'Budget Calculator',
     description: 'This app is a mobile web application where you can manage your budget: you have a list of transactions associated with a category. So that you can see how much money you spent and on what.',
-    image: './images/budget_calculator_img.png',
+    image: './images/budget_calculator.png',
     technologies: ['HTML', 'CSS', 'Ruby on Rails'],
     liveversion: 'https://santiago-budget-calculator.herokuapp.com/',
     source: 'https://github.com/Santiago220991/Budget-App',
