@@ -10,7 +10,7 @@ const data = [
 
   {
     name: 'Budget Calculator',
-    description: 'This app is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
+    description: 'This app is a mobile web application where you can manage your budget: you have a list of transactions associated with a category. So that you can see how much money you spent and on what.',
     image: './images/budget_calculator_img.png',
     technologies: ['HTML', 'CSS', 'Ruby on Rails'],
     liveversion: 'https://santiago-budget-calculator.herokuapp.com/',
@@ -28,7 +28,7 @@ const data = [
 
   {
     name: 'Math Magicians',
-    description: "This is a SPA webpage that shows a functional calculator with the next basic functions: Addition, Subtraction, Multiplication and Division.",
+    description: "This is a SPA webpage that shows a functional calculator with the next basic functions: Addition, Subtraction, Multiplication, and Division.",
     image: './images/calculator_img.png',
     technologies: ['HTML', 'CSS', 'Javascript', 'React'],
     liveversion: 'https://santiago-math-magicians.netlify.app/',
@@ -46,7 +46,7 @@ const data = [
 
   {
     name: 'Music Band Web Page',
-    description: 'This is a music band web page. It contains information like: Albums, Videos, Pictures, Shop. This project was made with HTML, CSS, Javascript and Boostrap 5.',
+    description: "This is a music band web page. It contains information like Albums, Videos, Pictures, Shop. Mobile and desktop versions were created for this project.",
     image: './images/music_band_web_page.png',
     technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
     liveversion: 'https://santiago220991.github.io/Music-Band-Web-Page/',
