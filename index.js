@@ -143,6 +143,7 @@ greenbutton.forEach((element, index) => {
     let footerbutton = document.createElement('a');
     footerbutton.className = 'footerbutton';
     footerbutton.href = data[i].liveversion;
+    footerbutton.target='_blank'
     popupfooter.append(footerbutton);
 
     let buttontext = document.createElement('div');
@@ -158,9 +159,11 @@ greenbutton.forEach((element, index) => {
     footerbutton = document.createElement('a');
     footerbutton.className = 'footerbutton';
     footerbutton.href = data[i].source;
+    footerbutton.target='_blank'
     popupfooter.append(footerbutton);
 
     buttontext = document.createElement('div');
+    buttontext.target
     buttontext.className = 'buttontext';
     buttontext.innerHTML = '<p>See Source</p>';
     footerbutton.appendChild(buttontext);
