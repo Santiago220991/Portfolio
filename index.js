@@ -18,12 +18,12 @@ const data = [
   },
 
   {
-    name: 'France Ligue 1 Stats',
-    description: 'This is a Single Page Application that shows the list of teams that belong to the France Ligue 1 during the season 2020-2021. This project uses an API to get the data, just the mobile version of the project was designed.',
-    image: './images/france_ligue1_img.png',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'Redux'],
-    liveversion: 'https://santiago-france-ligue1-stats.netlify.app/',
-    source: 'https://github.com/Santiago220991/France-Ligue-1-Stats',
+    name: 'Premier League Statistics',
+    description: 'This single-page application shows the Premier League statistics from the seasons 2019 to 2020. This app shows a list of the teams that participated in the tournament and also shows the statistics of every team during that season. The app was designed with an approach mobile first. Therefore there are desktop and mobile view versions.',
+    image: './images/premier_league.png',
+    technologies: ['HTML', 'CSS', 'TypeScript', 'React'],
+    liveversion: 'https://premier-league-statistics.netlify.app/',
+    source: 'https://github.com/Santiago220991/Premier-League-Statistics',
   },
 
   {
