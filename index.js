@@ -36,12 +36,12 @@ const data = [
   },
 
   {
-    name: 'Math Magicians',
-    description: "This is a SPA webpage that shows a functional calculator with the next basic functions: Addition, Subtraction, Multiplication, and Division.",
-    image: './images/calculator_img.png',
-    technologies: ['HTML', 'CSS', 'Javascript', 'React'],
-    liveversion: 'https://santiago-math-magicians.netlify.app/',
-    source: 'https://github.com/Santiago220991/math-magicians', 
+    name: 'E-commerce',
+    description: "This app is an e-commerce where you can add items to the cart, sort items by different categories and see a short description of every item. It was built with React and JavaScript.",
+    image: './images/e_commerce.png',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'React'],
+    liveversion: 'https://e-commerce-project-santiago.netlify.app/',
+    source: 'https://github.com/Santiago220991/E-COMMERCE', 
   },
 
   {
