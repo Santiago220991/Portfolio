@@ -873,6 +873,10 @@ textarea {
     border-radius: 8px;
   }
 
+  .imgb:hover {
+    background-color: #C1C7CD;
+  }
+
   .popupdiv {
     display: flex;
     flex-wrap: wrap;
