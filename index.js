@@ -3,7 +3,7 @@ const data = [
     name: 'Tourify',
     description: "This is an app in which you can reserve a tour, create a tour, delete a tour and show all your reserved tours. This app was created by separating the Fron-End and the Back-End into two repositories.",
     image: './images/tourify.png',
-    technologies: ['HTML', 'CSS','JavaScript', 'Ruby on Rails', 'React', 'Redux'],
+    technologies: ['HTML', 'CSS','JavaScript', 'Ruby on Rails', 'React-Redux'],
     liveversion: 'https://tourify-app.netlify.app/',
     source: 'https://github.com/Santiago220991/Booking-Tours',
   },
