@@ -30,7 +30,7 @@ const data = [
     name: 'Bookstore',
     description: "This is a Bookstore webpage. This project uses an API to store the books. It shows a booklist with the next features: Show the book's title and author, add a new book and remove a book.",
     image: 'https://user-images.githubusercontent.com/98363075/175354896-7e9ef2a9-aece-4a36-ae4a-1245fb758d76.png',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'React-Redux'],
+    technologies: ['HTML', 'JavaScript', 'React-Redux'],
     liveversion: 'https://santiago-bookstore.netlify.app/',
     source: 'https://github.com/Santiago220991/Bookstore',
   },
