@@ -40,7 +40,6 @@ To get a local copy up and running follow these simple example steps.
 
 - GitHub: [@githubhandle](https://github.com/Santiago220991) 
 - Twitter: [@twitterhandle](https://twitter.com/SanCardenas10)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/alexandersantiagocardenas/)
 
 
 ## 🤝 Contributing
